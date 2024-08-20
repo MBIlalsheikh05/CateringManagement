@@ -5,6 +5,7 @@ import { DaigProvider } from './context/DaigContext';
 import Home from './Pages/Home';
 import AddDaigForm from './components/AddDaigForm';
 import DaigList from './components/DaigList';
+import DaigItem from './components/DaigItem';
 import DaigStatus from './components/DaigStatus';
 import AllocateDaig from './components/AllocateDaig';
 import UpdateDaigForm from './components/UpdateDaigForm';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/daig-status" element={<DaigStatus />} />
         <Route path="/allocate-daig" element={<AllocateDaig />} />
         <Route path="/update-daig" element={<UpdateDaigForm />} />
+        <Route path="/item-daig" element={<DaigItem />} />
       </Routes>
     </DaigProvider>
   );

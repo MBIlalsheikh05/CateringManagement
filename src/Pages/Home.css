@@ -10,14 +10,13 @@ body {
 /* Header Styles */
 .header {
   background: rgba(22, 34, 42, 0.8);
-  padding: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(8px);
-  border-radius: 10px;
+  border-radius: 1px;
   box-shadow: 0 70px 90px rgba(0, 0, 0, 0.5);
-  color: #00a8cc; /* Teal accent color */
+  color: #00a8cc; 
 }
 
 /* Hero Section Styles */
@@ -25,7 +24,7 @@ body {
   background: linear-gradient(to right, #43c6ac, #191654);
   color: #fff;
   text-align: center;
-  padding: 50px 20px;
+  padding: 15px 10px;
   margin-bottom: 40px;
   border-radius: 12px;
 }
@@ -99,3 +98,4 @@ body {
   backdrop-filter: blur(8px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
