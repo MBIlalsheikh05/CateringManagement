@@ -1,0 +1,76 @@
+/* General Form Styles */
+form {
+    background: rgba(28, 59, 87, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+  }
+  
+  .form-heading, .section-heading {
+    font-size: 1.8rem;
+    color: #00a8cc;
+    margin-bottom: 15px;
+  }
+  
+  .input-field, .select-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #00a8cc;
+    border-radius: 5px;
+    background-color: #1c3b57;
+    color: #d0e8f2;
+  }
+  
+  .submit-button, .delete-button, .cancel-button {
+    background-color: #43c6ac;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover, .delete-button:hover, .cancel-button:hover {
+    background-color: #2e4969;
+  }
+  
+  .daig-list {
+    background: rgba(28, 59, 87, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .list-container {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    background: rgba(28, 59, 87, 0.8);
+    border: 2px solid #00a8cc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-text {
+    color: #a1d6e2;
+    font-size: 1.1rem;
+  }
+  
+  /* Allocating and Status Sections */
+  .allocate-daig, .daig-status {
+    background: rgba(28, 59, 87, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+  }
+  

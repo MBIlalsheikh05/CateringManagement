@@ -1,0 +1,21 @@
+/* src/styles/AddDaigForm.css */
+.add-daig-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .add-daig-form input,
+  .add-daig-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-daig-form button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  

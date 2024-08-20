@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #16222a;
+    color: #d0e8f2;
+  }
+  
+  /* Header Styles */
+  .header {
+    background: rgba(22, 34, 42, 0.8);
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 0 70px 90px rgba(0, 0, 0, 0.5);
+    color: #00a8cc; /* Teal accent color */
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background: linear-gradient(to right, #43c6ac, #191654);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    color: #00a8cc; /* Teal-themed heading color */
+  }
+  
+  .hero p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #a1d6e2;
+  }
+  
+  /* Card Container Styles */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex: 1;
+    background: #1c3b57;
+    border-radius: 12px;
+  }
+  
+  /* Card Styles */
+  .card {
+    background: rgba(28, 59, 87, 0.9);
+    border: 2px solid #00a8cc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .card h2 {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    color: #00a8cc;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #a1d6e2;
+  }
+  
+  .card a {
+    color: #43c6ac;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    background: #2e4969;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: rgba(22, 34, 42, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: #a1d6e2;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
